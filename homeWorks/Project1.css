@@ -273,8 +273,6 @@ align-items: center;
     }
 
     .feature-cards i{
-        /* height: 35px;
-        width: 25px; */
         text-align: center;
        align-items: start;
     }
@@ -434,13 +432,13 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav li {
     list-style: none;
     padding: 10px;
     margin: 0 10px;
-
     animation-name: nav-link-load;
     animation-duration: var(--nav-link-load-time);
     animation-timing-function: ease-in;
@@ -460,7 +458,6 @@ nav li:last-child {
 }
 
 nav li:hover {
-    /* background-color: #FFFFFF44; */
     padding: 3px;
 }
 
